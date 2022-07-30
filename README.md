@@ -2,7 +2,7 @@
 
 Saya telah menguji ini pada macOS 10.14.6 - 11.6.8 dengan kartu kombo Wifi/BT AR9565. Kexts telah dikembangkan oleh pengembang  [itlwm zxystd](https://github.com/zxystd) 
  
-Latar Belakang:
+**Latar Belakang:** \
 Metode terakhir yang berhasil untuk mengunggah firmware adaptor Bluetooth Atheros 3012 saat start dingin di Hackintosh adalah kext sumber tertutup yang dikembangkan oleh @EMlyDinEsH yang tidak akan berfungsi di luar macOS 10.12. Pada bulan September 2020, zxystd merilis kexts Ath3kBT dan Ath3kBTInjector untuk mengunggah firmware dan memasukkan id untuk mengaktifkan sakelar Nyala/Mati di Bluetooth PrefPane untuk chip AR3012 di macOS 10.15+. Kexts baru-baru ini ditingkatkan untuk kompatibilitas dengan macOS 10.12+. 
 
 <img src="https://github.com/JaemanPratama/opencore-atheros-bluetooth-kext/blob/master/Image/Bluetooth%202.jpg">
@@ -30,8 +30,8 @@ Perhatikan bahwa, di OpenCore Ath3kBTInjector harus dimuat setelah Ath3kBT.
 </details>
 
 
-Sumber: \
+**Sumber:** \
 https://github.com/zxystd/AthBluetoothFirmware
 
-Kredit: \
+**Kredit:** \
 [zxystd](https://github.com/zxystd)
